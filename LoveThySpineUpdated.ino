@@ -68,12 +68,10 @@ void loop()
 
 
 //=================================================================    
-
-    Serial.print("X\t");
-    Serial.println(motionX); //print out value for motionX
-    Serial.print("Z\t");
-    Serial.println(motionZ); //print out value for motionZ, bending forwards or backwards
-    //delay(250);
+  Serial.println("X\tZ");
+  Serial.print(motionX);
+  Serial.print("\t");
+  Serial.println(motionZ);
   }
 
   else if (slideSwitch == 1) //if the slide switch is to the left
